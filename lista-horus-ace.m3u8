@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml"
 
 #EXTINF:-1 tvg-id="DAZN 1 HD" tvg-name="DAZN 1" tvg-logo="https://stremio.shickat.me/Images/Channels/DAZN1.jpg" group-title="Deportes",DAZN 1
-plugin://script.module.horus?action=17c5ec4fd10a186893f9f3d545dfcff95034f972
+acestream://17c5ec4fd10a186893f9f3d545dfcff95034f972
 
 #EXTINF:-1 tvg-id="DAZN F1 HD" tvg-name="DAZN F1" tvg-logo="https://stremio.shickat.me/Images/Channels/DAZNF1.jpg" group-title="Deportes",DAZN F1
 acestream://8b55a528c5cf9f1acd11d942472bdd60926db8ae
