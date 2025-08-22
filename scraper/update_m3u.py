@@ -21,7 +21,7 @@ import yaml
 
 # --- Ajustes de rutas ---
 REPO_ROOT = Path(__file__).resolve().parents[1]
-M3U_PATH = REPO_ROOT / "lista.m3u"
+M3U_PATH = REPO_ROOT / "lista-horus-ace.m3u8"
 CONFIG_PATH = REPO_ROOT / "channels.yaml"
 
 HEADERS = {
