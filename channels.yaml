@@ -1,0 +1,43 @@
+# Añade/edita tus canales aquí.
+# Para cada canal puedes:
+# - fixed_url: usar una URL fija (acestream://..., http(s)://...)
+# - o indicar cómo extraer la URL desde una página (source_url + regex o selector CSS).
+#
+# Tips:
+# - 'regex' busca directamente en el HTML (usa grupos completos).
+# - 'selector' permite seleccionar un elemento; 'attr' el atributo (href, src, data-*, etc.).
+# - 'inner_regex' se aplica sobre el texto/atributo seleccionado para extraer la URL o el hash.
+# - Si tu página solo muestra el hash (40 hex), también vale; el script le antepone 'acestream://'.
+#
+channels:
+  - name: "DAZN La Liga"
+    source_url: "https://ipfs.io/ipns/elcano.top"
+    # Método 1: regex directa sobre el HTML
+    regex: "acestream://[0-9a-fA-F]{40}"
+    attrs:
+      group-title: "Deportes"
+      tvg-logo: "https://ipfs.io/ipns/elcano.top"
+
+  - name: "DAZN La Liga"
+    source_url: "https://ipfs.io/ipns/elcano.top"
+    # Método 1: regex directa sobre el HTML
+    regex: "acestream://[0-9a-fA-F]{40}"
+    attrs:
+      group-title: "Deportes"
+      tvg-logo: "https://ipfs.io/ipns/elcano.top"
+
+  - name: "DAZN La Liga"
+    source_url: "https://ipfs.io/ipns/elcano.top"
+    # Método 1: regex directa sobre el HTML
+    regex: "acestream://[0-9a-fA-F]{40}"
+    attrs:
+      group-title: "Deportes"
+      tvg-logo: "https://ipfs.io/ipns/elcano.top"
+
+  - name: "M+ Liga de Campeones HD"
+    source_url: "https://ipfs.io/ipns/elcano.top"
+    # Método 1: regex directa sobre el HTML
+    regex: "acestream://[0-9a-fA-F]{40}"
+
+
+
