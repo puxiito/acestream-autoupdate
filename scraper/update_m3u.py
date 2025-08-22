@@ -162,7 +162,7 @@ def normalize_acestream(candidate: str) -> Optional[str]:
         # normalizar a minúsculas la parte del hash
         parts = c.split("acestream://", 1)[1]
         if HEX40_REGEX.match(parts):
-            return "acestream://" + parts.lower()
+            return "plugin://script.module.horus?action=" + parts.lower()
         return c
     if HEX40_REGEX.fullmatch(c):
         return "acestream://" + c.lower()
