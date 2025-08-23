@@ -10,7 +10,13 @@
 # - Si tu página solo muestra el hash (40 hex), también vale; el script le antepone 'acestream://'.
 #
 channels:
-  - name: "DAZN La Liga"
+  - name: "DAZN 1 HD"
+    source_url: "https://ipfs.io/ipns/elcano.top"
+    # Método 1: regex directa sobre el HTML
+    regex: "acestream://[0-9a-fA-F]{40}"
+    pattern: "DAZN F1 1080 (Fórmula 1)""
+    
+  - name: "DAZN F1 HD"
     source_url: "https://ipfs.io/ipns/elcano.top"
     # Método 1: regex directa sobre el HTML
     regex: "acestream://[0-9a-fA-F]{40}"
@@ -18,7 +24,7 @@ channels:
       group-title: "Deportes"
       tvg-logo: "https://ipfs.io/ipns/elcano.top"
 
-  - name: "DAZN La Liga"
+  - name: "DAZN F1 HD"
     source_url: "https://ipfs.io/ipns/elcano.top"
     # Método 1: regex directa sobre el HTML
     regex: "acestream://[0-9a-fA-F]{40}"
@@ -26,7 +32,12 @@ channels:
       group-title: "Deportes"
       tvg-logo: "https://ipfs.io/ipns/elcano.top"
 
-  - name: "DAZN La Liga"
+  - name: "DAZN LaLiga HD"
+    source_url: "https://ipfs.io/ipns/elcano.top"
+    # Método 1: regex directa sobre el HTML
+    regex: "acestream://[0-9a-fA-F]{40}"
+
+- name: "DAZN LaLiga HD"
     source_url: "https://ipfs.io/ipns/elcano.top"
     # Método 1: regex directa sobre el HTML
     regex: "acestream://[0-9a-fA-F]{40}"
@@ -34,10 +45,35 @@ channels:
       group-title: "Deportes"
       tvg-logo: "https://ipfs.io/ipns/elcano.top"
 
-  - name: "M+ Liga de Campeones HD"
+- name: "DAZN La Liga"
     source_url: "https://ipfs.io/ipns/elcano.top"
     # Método 1: regex directa sobre el HTML
     regex: "acestream://[0-9a-fA-F]{40}"
+    attrs:
+      group-title: "Deportes"
+      tvg-logo: "https://ipfs.io/ipns/elcano.top"
 
+- name: "DAZN La Liga"
+    source_url: "https://ipfs.io/ipns/elcano.top"
+    # Método 1: regex directa sobre el HTML
+    regex: "acestream://[0-9a-fA-F]{40}"
+    attrs:
+      group-title: "Deportes"
+      tvg-logo: "https://ipfs.io/ipns/elcano.top"
 
+- name: "DAZN La Liga"
+    source_url: "https://ipfs.io/ipns/elcano.top"
+    # Método 1: regex directa sobre el HTML
+    regex: "acestream://[0-9a-fA-F]{40}"
+    attrs:
+      group-title: "Deportes"
+      tvg-logo: "https://ipfs.io/ipns/elcano.top"
+
+- name: "DAZN La Liga"
+    source_url: "https://ipfs.io/ipns/elcano.top"
+    # Método 1: regex directa sobre el HTML
+    regex: "acestream://[0-9a-fA-F]{40}"
+    attrs:
+      group-title: "Deportes"
+      tvg-logo: "https://ipfs.io/ipns/elcano.top"
 
